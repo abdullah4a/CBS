@@ -1,4 +1,3 @@
-# write workflow for testing with jest
 name: Test with Jest
 on:
   push:
