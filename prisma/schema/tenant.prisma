@@ -1,0 +1,6 @@
+model Tenant {
+  id        String @id @default(cuid())
+  name      String
+  subdomain String @unique
+  users     User[]
+}
